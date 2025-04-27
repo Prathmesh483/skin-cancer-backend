@@ -1,7 +1,7 @@
-Flask
-Flask-Cors
-tensorflow
-Pillow
+flask
+flask-cors
+tensorflow==2.10.0
+pillow
 requests
 numpy
 h5py
