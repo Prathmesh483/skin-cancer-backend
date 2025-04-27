@@ -11,7 +11,7 @@ CORS(app)
 
 # Define model download URL (shareable link from Google Drive)
 GOOGLE_DRIVE_FILE_ID = '1d_zmXyypxBe7h5rh07IXgjxgpwMRzeyu'  # replace with your file ID
-MODEL_PATH = 'model.h5'
+MODEL_PATH = 'model/model.h5'
 
 # Ensure that the directory to store the model exists
 os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
